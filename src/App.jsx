@@ -1,5 +1,5 @@
 // import { Routes, Route } from 'react-router-dom';
-
+import './app.css'
 import React, { useState } from 'react';
 import img from './images/dp.png'
 import img2 from './images/about.jpeg'
