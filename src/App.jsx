@@ -24,7 +24,7 @@ import ecom from './images/ecom.jpg'
 import todo from './images/todo.jpg'
 import AutoTypeText from './components/AutoTypeText';
 
-
+    
 const App = () => {
   const [selected, setSelected] = useState(null);
 
