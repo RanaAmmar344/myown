@@ -163,7 +163,7 @@ to contribute to web development projects and further enhance my skills while de
       <span className='bio'><GiSkills/></span>  1 Year
     </div>
     <div className="col-md-6">
-      <span className='bio'><AiOutlineLinkedin/> </span> <a href='https://www.linkedin.com/in/rana-ammar-395722152/'>Check Linkedin Profile  </a> 
+      <span className='bio'><AiOutlineLinkedin/> </span> <a href='https://www.linkedin.com/in/rana-ammar-395722152/' target='blank'>Check Linkedin Profile  </a> 
     </div>
   </div>
   <div className="row">
