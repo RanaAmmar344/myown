@@ -329,7 +329,7 @@ to contribute to web development projects and further enhance my skills while de
   <PiDotsNineBold className='doted'/>
 </div>
 {/* contact */}
-<div className='project-title 'data-aos="fade-up" >
+<div className='project-title my-3'data-aos="fade-up" >
   <h2 className="featurette-heading fw-normal lh-1 text-danger">Contact Me</h2>
   </div>
     <hr className='about-icon-project '/>
