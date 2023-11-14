@@ -109,7 +109,7 @@ const App = () => {
       <style>
         {`
           .nav-a {
-            color: black;
+            color: white;
             text-decoration: none; /* Removes underlines */
             transition: color 0.3s;
             margin: 0 10px; /* Adds margin between links */
