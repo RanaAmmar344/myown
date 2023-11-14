@@ -135,8 +135,8 @@ const App = () => {
 </header>
 {/* about */}
 
-<div id='about' className="row featurette text-white p-5">
-  <div className="col-md-7 order-md-2 px-5">
+<div id='about' className="row featurette text-white p-5" data-aos="fade-up">
+  <div className="col-md-7 order-md-2 px-5"  >
     <h2 className="featurette-heading fw-normal lh-1 text-danger">About Me </h2>
     <hr className='about-icon '/>
     <p className="lead">Passionate and motivated in Software Engineering with a strong foundation in HTML, CSS, and JavaScript. Seeking an entry-level position
@@ -193,7 +193,7 @@ to contribute to web development projects and further enhance my skills while de
   
   </div>
 </div>
-<div id='skill' className='skill text-white p-5'>
+<div id='skill' className='skill text-white p-5'data-aos="fade-up" >
 <h2   className="featurette-heading fw-normal lh-1 text-danger"> My Skills </h2>
     <hr className='about-icon '/>
     <div className="row">
@@ -277,7 +277,7 @@ to contribute to web development projects and further enhance my skills while de
     </div>
 </div>
 {/* project */}
-<div className="container-fluid p-0 ">
+<div className="container-fluid p-0 " data-aos="fade-up">
   <div id='project' className="section-project">
     
   
@@ -329,11 +329,11 @@ to contribute to web development projects and further enhance my skills while de
   <PiDotsNineBold className='doted'/>
 </div>
 {/* contact */}
-<div className='project-title '>
+<div className='project-title 'data-aos="fade-up" >
   <h2 className="featurette-heading fw-normal lh-1 text-danger">Contact Me</h2>
   </div>
     <hr className='about-icon-project '/>
-    <div id='contact' className="container-contact">
+    <div id='contact' className="container-contact"data-aos="fade-up">
 
     <div className="col-md-8 mb-md-0 mb-5 m-5  ">
             <form   action="https://formspree.io/f/xbjvqbzw" method="POST">
