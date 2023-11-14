@@ -1,0 +1,153 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #0c0e19;
+}
+
+.main-img{
+    
+  
+    height: 600px; 
+    width: auto;
+    background-image: url('./images/stars.png'); 
+    /* background-size: cover;  */
+    /* background-position: center;  */
+   
+  }
+ /* AutoTypeText.css */
+
+.auto-type-text {
+  font-size: 24px;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid #fffcfc;
+  animation: typing 100s steps(50) forwards;
+}
+
+@keyframes typing {
+  from { width: auto; }
+  to { width: 100%; }
+}
+
+  
+
+  
+  
+  
+  .about-icon{
+
+    width: 66px;
+    color: yellow;
+   
+  }
+  .featurette-image{
+
+    border-radius: 33px;
+  }
+  .about-detail{
+border: 1px solid #DC3545;
+border-radius: 22px;
+
+  }
+  .bio{
+   font-size: 20px;
+   font-weight: bold;
+  }
+.featurette-heading{
+  font-family: 'Anton', sans-serif;
+    font-size: 55px;
+    font-weight: bold;
+}
+.name{
+  font-family: 'Anton', sans-serif;
+    font-size: 55px;
+    font-weight: bold;
+   
+}
+.name1{
+  color: yellow;
+  font-family: 'Anton', sans-serif;
+  font-size: 33px;
+  font-weight: bold;
+}
+.myname{
+  font-family: 'Anton', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+ 
+  
+
+
+}
+.navbar{
+  background-image: url('./images/stars.png'); 
+
+}
+ .project-title{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 12px;
+  font-size: bold;
+ }
+ .about-icon-project{
+
+ width: 100px;
+ margin: auto;
+ margin-top: 12px;
+ color: yellow;
+ 
+ }
+
+
+ .card {
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px 0 rgba(44, 43, 43, 0.2);
+  cursor: pointer;
+}
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px 0 rgba(248, 243, 243, 0.2);
+}
+.project-row{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+
+}
+a{
+  text-decoration: none;
+}
+
+.hair-me{
+  height: 150px;
+  background-color:yellow ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hair-icon{
+  width: 100px;
+  height: 60px;
+}
+.hire-button{
+  margin-bottom: 5px;
+ 
+}
+.doted{
+  width: 100px;
+  height: 60px;
+  
+}
+
+.footer-icon{
+
+  color: white;
+  font-size: 25px;
+
+
+}
