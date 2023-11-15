@@ -324,7 +324,7 @@ to contribute to web development projects and further enhance my skills while de
 <div className="hair-me">
   <PiDotsNineBold className='doted'/>
   <FaPaperPlane className='hair-icon'/>
-  <h1>HIRE ME FOR YOUR AWESOM PROJECTS</h1>
+  <h1>HIRE ME FOR YOUR AWESOME PROJECTS</h1>
   <a  href='#about'  type="button" className="btn btn-dark mx-3 hire-button ">HIRE ME</a>
   <PiDotsNineBold className='doted'/>
 </div>
