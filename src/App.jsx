@@ -12,6 +12,7 @@ import { AiFillFacebook} from 'react-icons/ai';
 import {AiOutlineTwitter} from 'react-icons/ai';
 import {AiOutlineInstagram} from 'react-icons/ai';
 import {BiLogoGmail} from 'react-icons/bi';
+import { FaGithub } from "react-icons/fa";
 import { GiSkills } from 'react-icons/gi'
 import { AiOutlineLinkedin } from 'react-icons/ai'
 import { MdCastForEducation } from 'react-icons/md'
@@ -166,6 +167,12 @@ to contribute to web development projects and further enhance my skills while de
       <span className='bio'><AiOutlineLinkedin/> </span> <a href='https://www.linkedin.com/in/rana-ammar-395722152/' target='blank'>Check Linkedin Profile  </a> 
     </div>
   </div>
+  <div className="row">
+    <div className="col-md-8">
+      <span className='bio'><FaGithub /></span> <a href='https://github.com/RanaAmmar344' target='blank'>check Github</a>
+    </div>
+  </div>
+  
   <div className="row">
     <div className="col-md-8">
       <span className='bio'><MdCastForEducation/></span> Bachelor in Information Technology (BS-IT)
