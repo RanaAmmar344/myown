@@ -43,7 +43,7 @@ const App = () => {
   return (
     <>
  
- <nav className="navbar navbar-expand-lg navbar-light  bg-dark fixed-top">
+ <nav className="navbar navbar-expand-lg navbar-light  fixed-top">
         <div className="container-fluid">
           <button
             className="navbar-toggler"
@@ -127,7 +127,7 @@ const App = () => {
       <header id='home' className="py-5  main-img" >
   
   <div className="text-center ">
-      <img className="img-fluid rounded-circle  dp-img" src='https://media.licdn.com/dms/image/D4D03AQFpOXSWUAvHeg/profile-displayphoto-shrink_800_800/0/1705249618970?e=1710979200&v=beta&t=v627GIJuXr-3he_YQqpuNYEls0MLpJjXUlPQLUJ3A_o' width={200} alt="..."/>
+      <img className="img-fluid rounded-circle  dp-img" src={img} width={200} alt="..."/>
       <h1 className='text-white name1'>Hello I'm</h1>
       <h1 className="text-danger   myname">Rana Ammar Mushtaq</h1>
       {/* <h5 className="text-white  mb-0">Assosiate Software Engineer -Mern</h5> */}
@@ -333,6 +333,16 @@ to contribute to web development projects and further enhance my skills while de
   <img src='https://media.licdn.com/dms/image/D4D22AQGs2Z9y9QVKXQ/feedshare-shrink_800/0/1704699720475?e=1707955200&v=beta&t=W-VK3InomZczBQ60yzGT12W76kU7EqN4TI6R5qvEwUg' className="card-img-top"  height={200} alt="..."/>
   <div className="card-body">
     <p className="card-text">APTA-Medical website built with ReactJS/HTML/CSS/Bootstrap/React-icons</p>
+  </div>
+</div>
+</a>
+      </div>
+    <div className="col-md-3 ">
+      <a  href='https://atomcamp.vercel.app/' target='blank' >
+      <div   className="card" >
+  <img src='https://www.atomcamp.com/wp-content/uploads/2023/12/main-banner.png' className="card-img-top"  height={200} alt="..."/>
+  <div className="card-body">
+    <p className="card-text">Atom camp website built with ReactJS/HTML/CSS/Bootstrap/React-icons</p>
   </div>
 </div>
 </a>

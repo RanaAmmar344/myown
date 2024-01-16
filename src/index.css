@@ -9,9 +9,10 @@ body{
   
     height: 600px; 
     width: auto;
-    background-image: url('./images/stars.png'); 
-    /* background-size: cover;  */
+    background-image: url('https://v4.cdnpk.net/videvo_files/video/free/video0468/thumbnails/_import_6166e79cddeab9.62548001_large.jpg?ga=GA1.1.581110608.1702911231'); 
+    background-size: cover; 
     /* background-position: center;  */
+    background-attachment: fixed;
    
   }
  /* AutoTypeText.css */
@@ -81,7 +82,7 @@ border-radius: 22px;
 
 }
 .navbar{
-  background-image: url('./images/stars.png'); 
+ 
 
 }
  .project-title{
@@ -151,3 +152,4 @@ a{
 
 
 }
+
