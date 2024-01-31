@@ -1,7 +1,7 @@
 // import { Routes, Route } from 'react-router-dom';
 
 import React, { useState } from 'react';
-import img from './images/home.png'
+
 import img2 from './images/about.jpg'
 import img3 from './images/dot.png'
 import { AiOutlineUser } from 'react-icons/ai'
