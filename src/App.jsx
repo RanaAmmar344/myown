@@ -1,8 +1,8 @@
 // import { Routes, Route } from 'react-router-dom';
 
 import React, { useState } from 'react';
-import img from './images/dp.png'
-import img2 from './images/about.jpeg'
+import img from './images/home.png'
+import img2 from './images/about.jpg'
 import img3 from './images/dot.png'
 import { AiOutlineUser } from 'react-icons/ai'
 import { AiOutlineMail } from 'react-icons/ai'
@@ -124,16 +124,34 @@ const App = () => {
         `}
       </style>
       {/* Home */}
-      <header id='home' className="py-5  main-img" >
+      {/* <header id='home' className="py-5  main-img" > */}
   
-  <div className="text-center ">
-      <img className="img-fluid rounded-circle  dp-img" src={img} width={200} alt="..."/>
+  {/* <div className="text-center "> */}
+      {/* <img className="img-fluid rounded-circle  dp-img" src={img} width={200} alt="..."/> */}
+      {/* <h1 className='text-white name1'>Hello I'm</h1>
+      <h1 className="text-danger   myname">Rana Ammar Mushtaq</h1> */}
+      {/* <h5 className="text-white  mb-0">Assosiate Software Engineer -Mern</h5> */}
+      {/* <AutoTypeText /> */}
+  {/* </div> */}
+{/* </header> */}
+
+
+<div className="home">
+
+<div className="row">
+  <div className="col-md-12 mt-5 pt-5 px-5 home-text">
       <h1 className='text-white name1'>Hello I'm</h1>
       <h1 className="text-danger   myname">Rana Ammar Mushtaq</h1>
-      {/* <h5 className="text-white  mb-0">Assosiate Software Engineer -Mern</h5> */}
       <AutoTypeText />
   </div>
-</header>
+  
+</div>
+
+</div>
+
+
+
+
 {/* about */}
 
 <div id='about' className="row featurette text-white p-5" data-aos="fade-up">
