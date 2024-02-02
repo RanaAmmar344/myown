@@ -333,11 +333,11 @@ to contribute to web development projects and further enhance my skills while de
 </a>
       </div>
       <div className="col-md-3">
-      <a  href='https://to-do-list-indol-six.vercel.app/' target='blank' >
+      <a  href='https://myown-five.vercel.app/' target='blank' >
       <div   className="card" >
-  <img src={todo} className="card-img-top"  height={200} alt="..."/>
+  <img src='https://media.licdn.com/dms/image/D4D22AQHfLC4VDlG_GA/feedshare-shrink_800/0/1706872274986?e=1709769600&v=beta&t=BAP2szwJ5e5fD8Yqmz1Of5zaAqjDxx-eJifvn34KnFA' className="card-img-top"  height={200} alt="..."/>
   <div className="card-body">
-    <p className="card-text">To-Do-List built in ReactJS/NextJS .</p>
+    <p className="card-text"> expologistics built in ReactJS</p>
   </div>
 </div>
 </a>
