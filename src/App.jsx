@@ -317,7 +317,7 @@ to contribute to web development projects and further enhance my skills while de
       <div   className="card" >
   <img src={solar} className="card-img-top" height={200} alt="..."/>
   <div className="card-body">
-    <p className="card-text">Solar Energy website built with ReactJS.</p>
+    <p className="card-text">Solar Energy website built with ReactJS Mobile Responsive.</p>
   </div>
 </div>
 </a>
@@ -337,7 +337,7 @@ to contribute to web development projects and further enhance my skills while de
       <div   className="card" >
   <img src='https://expologistics.info/wp-content/uploads/2023/08/truck-american-show-4349523.jpg' className="card-img-top"  height={200} alt="..."/>
   <div className="card-body">
-    <p className="card-text"> expologistics built in ReactJS</p>
+    <p className="card-text"> expologistics built in ReactJS Mobile Responsive</p>
   </div>
 </div>
 </a>
@@ -350,7 +350,7 @@ to contribute to web development projects and further enhance my skills while de
       <div   className="card" >
   <img src='https://www.apta.org/contentassets/41a24f4f3ff5445fb351803cd948e878/mcmillanfeature-440x225.png?width=440&height=225&mode=crop' className="card-img-top"  height={200} alt="..."/>
   <div className="card-body">
-    <p className="card-text">APTA-Medical website built with ReactJS/HTML/CSS/Bootstrap/React-icons</p>
+    <p className="card-text">APTA-Medical website built with ReactJS Mobile Responsive</p>
   </div>
 </div>
 </a>
@@ -360,7 +360,7 @@ to contribute to web development projects and further enhance my skills while de
       <div   className="card" >
   <img src='https://www.atomcamp.com/wp-content/uploads/2023/12/main-banner.png' className="card-img-top"  height={200} alt="..."/>
   <div className="card-body">
-    <p className="card-text">Atom camp website built with ReactJS/HTML/CSS/Bootstrap/React-icons</p>
+    <p className="card-text">Atom camp website built with ReactJS Mobile Responsive</p>
   </div>
 </div>
 </a>
