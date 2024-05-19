@@ -142,7 +142,7 @@ const App = () => {
   <div className="col-md-12 mt-5 pt-5 px-5 home-text">
       <h1 className='text-white name1'>Hello I'm</h1>
       <h1 className="text-danger   myname">Rana Ammar Mushtaq</h1>
-      <AutoTypeText />
+      <AutoTypeText   />
   </div>
   
 </div>
@@ -312,7 +312,7 @@ to contribute to web development projects and further enhance my skills while de
     <hr className='about-icon-project '/>
   
     <div className="row project-row my-5">
-      <div className="col-md-3">
+      <div className="col-md-3 p-card ">
       <a  href='https://solar-rose.vercel.app/' target='blank' >
       <div   className="card" >
   <img src={solar} className="card-img-top" height={200} alt="..."/>
@@ -322,7 +322,7 @@ to contribute to web development projects and further enhance my skills while de
 </div>
 </a>
       </div>
-      <div className="col-md-3">
+      <div className="col-md-3 p-card ">
       <a  href='https://ecom-shop-pi.vercel.app/' target='blank' >
       <div   className="card" >
   <img src={ecom} className="card-img-top" height={200} alt="..."/>
@@ -332,7 +332,7 @@ to contribute to web development projects and further enhance my skills while de
 </div>
 </a>
       </div>
-      <div className="col-md-3">
+      <div className="col-md-3  p-card ">
       <a  href='https://expologistics.vercel.app/' target='blank' >
       <div   className="card" >
   <img src='https://expologistics.info/wp-content/uploads/2023/08/truck-american-show-4349523.jpg' className="card-img-top"  height={200} alt="..."/>
@@ -345,7 +345,7 @@ to contribute to web development projects and further enhance my skills while de
    
     </div>
     <div className="row project-row my-5">
-    <div className="col-md-3 ">
+    <div className="col-md-3 p-card ">
       <a  href='https://apta.vercel.app/' target='blank' >
       <div   className="card" >
   <img src='https://www.apta.org/contentassets/41a24f4f3ff5445fb351803cd948e878/mcmillanfeature-440x225.png?width=440&height=225&mode=crop' className="card-img-top"  height={200} alt="..."/>
@@ -355,7 +355,7 @@ to contribute to web development projects and further enhance my skills while de
 </div>
 </a>
       </div>
-    <div className="col-md-3 ">
+    <div className="col-md-3 p-card ">
       <a  href='https://atomcamp.vercel.app/' target='blank' >
       <div   className="card" >
   <img src='https://www.atomcamp.com/wp-content/uploads/2023/12/main-banner.png' className="card-img-top"  height={200} alt="..."/>
@@ -368,13 +368,13 @@ to contribute to web development projects and further enhance my skills while de
     </div>
 </div>
 </div>
-<div className="hair-me">
+<d iv className="hair-me">
   <PiDotsNineBold className='doted'/>
   <FaPaperPlane className='hair-icon'/>
-  <h1>HIRE ME FOR YOUR AWESOME PROJECTS</h1>
+  <h1 className='hairme2'>HIRE ME FOR YOUR AWESOME PROJECTS</h1>
   <a  href='#about'  type="button" className="btn btn-dark mx-3 hire-button ">HIRE ME</a>
   <PiDotsNineBold className='doted'/>
-</div>
+</d>
 {/* contact */}
 <div className='project-title my-3'data-aos="fade-up" >
   <h2 className="featurette-heading fw-normal lh-1 text-danger">Contact Me</h2>
@@ -396,7 +396,7 @@ to contribute to web development projects and further enhance my skills while de
                         </div>
                     </div>
                     
-                    <div className="col-md-6">
+                    <div className="col-md-6 c-email">
                         <div className="md-form mb-0">
                             <input type="email"  placeholder='Your Email'  id="email" name="email" className="form-control"/>
                             

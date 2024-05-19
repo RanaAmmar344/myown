@@ -177,3 +177,46 @@ background-size: cover;
 
   color: #FFFF00;
 }
+
+/* ---------------------------Responsive------------------------------- */
+
+@media (max-width : 600px) {
+  .home{
+
+    background-image: none;
+  
+  }
+
+  .home-text{
+    position: relative;
+    left: 5px;
+    text-align: center;
+    top: 150px;
+  }
+  .bd-placeholder-img{
+
+    position: relative;
+    top: 30px;
+    right: 45px;
+  }
+  .p-card{
+
+    
+    padding: 15px;
+
+  }
+
+  .hairme2{
+position: relative;
+font-size: 17px;
+left: 10px;
+
+  }
+  .c-email{
+
+    position: relative;
+    top: 12px;
+  }
+  
+    
+  }
