@@ -335,7 +335,7 @@ to contribute to web development projects and further enhance my skills while de
       <div className="col-md-3">
       <a  href='expologistics.vercel.app' target='blank' >
       <div   className="card" >
-  <img src='https://media.licdn.com/dms/image/D4D22AQHfLC4VDlG_GA/feedshare-shrink_800/0/1706872274986?e=1709769600&v=beta&t=BAP2szwJ5e5fD8Yqmz1Of5zaAqjDxx-eJifvn34KnFA' className="card-img-top"  height={200} alt="..."/>
+  <img src='https://expologistics.info/wp-content/uploads/2023/08/truck-american-show-4349523.jpg' className="card-img-top"  height={200} alt="..."/>
   <div className="card-body">
     <p className="card-text"> expologistics built in ReactJS</p>
   </div>
