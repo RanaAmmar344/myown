@@ -327,7 +327,7 @@ to contribute to web development projects and further enhance my skills while de
       <div   className="card" >
   <img src={ecom} className="card-img-top" height={200} alt="..."/>
   <div className="card-body">
-    <p className="card-text"> E-Commerance website built ReactJS.</p>
+    <p className="card-text"> E-Commerance website built ReactJS & Redux/Context Api</p>
   </div>
 </div>
 </a>
