@@ -348,7 +348,7 @@ to contribute to web development projects and further enhance my skills while de
     <div className="col-md-3 ">
       <a  href='https://apta.vercel.app/' target='blank' >
       <div   className="card" >
-  <img src='https://media.licdn.com/dms/image/D4D22AQGs2Z9y9QVKXQ/feedshare-shrink_800/0/1704699720475?e=1707955200&v=beta&t=W-VK3InomZczBQ60yzGT12W76kU7EqN4TI6R5qvEwUg' className="card-img-top"  height={200} alt="..."/>
+  <img src='https://www.apta.org/contentassets/41a24f4f3ff5445fb351803cd948e878/mcmillanfeature-440x225.png?width=440&height=225&mode=crop' className="card-img-top"  height={200} alt="..."/>
   <div className="card-body">
     <p className="card-text">APTA-Medical website built with ReactJS/HTML/CSS/Bootstrap/React-icons</p>
   </div>
