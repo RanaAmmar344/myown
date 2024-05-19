@@ -333,7 +333,7 @@ to contribute to web development projects and further enhance my skills while de
 </a>
       </div>
       <div className="col-md-3">
-      <a  href='expologistics.vercel.app' target='blank' >
+      <a  href='https://expologistics.vercel.app/' target='blank' >
       <div   className="card" >
   <img src='https://expologistics.info/wp-content/uploads/2023/08/truck-american-show-4349523.jpg' className="card-img-top"  height={200} alt="..."/>
   <div className="card-body">
