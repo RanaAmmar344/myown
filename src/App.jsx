@@ -335,7 +335,7 @@ to contribute to web development projects and further enhance my skills while de
       <div className="col-md-3  p-card ">
       <a  href='https://expologistics.vercel.app/' target='blank' >
       <div   className="card" >
-  <img src='https://expologistics.info/wp-content/uploads/2023/08/truck-american-show-4349523.jpg' className="card-img-top"  height={200} alt="..."/>
+  <img src='https://cdn.pixabay.com/photo/2018/05/14/20/54/truck-3401529_1280.jpg' className="card-img-top"  height={200} alt="..."/>
   <div className="card-body">
     <p className="card-text"> expologistics built in ReactJS Mobile Responsive</p>
   </div>
