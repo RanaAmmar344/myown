@@ -4,6 +4,8 @@ import React, { useState } from 'react';
 
 import img2 from './images/about.jpg'
 import img3 from './images/dot.png'
+import { FiAward } from "react-icons/fi";
+
 import { AiOutlineUser } from 'react-icons/ai'
 import { AiOutlineMail } from 'react-icons/ai'
 import { AiOutlinePhone } from 'react-icons/ai'
@@ -179,7 +181,7 @@ to contribute to web development projects and further enhance my skills while de
   </div>
   <div className="row">
     <div className="col-md-6">
-      <span className='bio'><GiSkills/></span>  6 Month
+      <span className='bio'>Experience:</span>  6 Month
     </div>
     <div className="col-md-6">
       <span className='bio'><AiOutlineLinkedin/> </span> <a href='https://www.linkedin.com/in/rana-ammar-395722152/' target='blank'>Check Linkedin Profile  </a> 
@@ -203,7 +205,7 @@ to contribute to web development projects and further enhance my skills while de
     <span className='bio'>Graphic Designing</span><p>Digiskill Traning Program. • 2021</p>
     </div>
     <div className="col-md-6">
-    <span className='bio'>Mern Stack</span><p> Knowledge Stream. • 2023</p>
+    <span className='bio'>Mern Stack ( Award Winner <FiAward />)</span><p> Knowledge Stream. • 2023</p>
 
     </div>
   </div>
