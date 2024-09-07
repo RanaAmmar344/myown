@@ -198,7 +198,7 @@ to contribute to web development projects and further enhance my skills while de
       <span className='bio'><MdCastForEducation/></span> Bachelor in Information Technology (BS-IT)
     </div>
   </div>
-  <div className="row my-3">
+  <div className="row my-3 p-1">
     <h4 className='text-danger'>C E R T I F I C A T I O N S</h4>
 
     <div className="col-md-6">
