@@ -205,7 +205,7 @@ to contribute to web development projects and further enhance my skills while de
     <span className='bio'>Graphic Designing</span><p>Digiskill Traning Program. • 2021</p>
     </div>
     <div className="col-md-6">
-    <span className='bio'>Mern Stack <span>  (  Award Winner <FiAward />) </span></span><p> Knowledge Stream. • 2023</p>
+    <span className='bio'>Mern Stack (  Award Winner <FiAward />)</span><p> Knowledge Stream. • 2023</p>
 
     </div>
   </div>
