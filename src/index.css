@@ -5,17 +5,17 @@ body{
    overflow-x: hidden;
 }
 
-.main-img{
+/* .home{
     
   
     height: 600px; 
     width: auto;
     background-image: url('https://v4.cdnpk.net/videvo_files/video/free/video0468/thumbnails/_import_6166e79cddeab9.62548001_large.jpg?ga=GA1.1.581110608.1702911231'); 
     background-size: cover; 
-    /* background-position: center;  */
-    background-attachment: fixed;
+    background-position: center;  
+     background-attachment: fixed;
    
-  }
+  } */
  /* AutoTypeText.css */
 
 .auto-type-text {
@@ -46,10 +46,18 @@ body{
   .featurette-image{
 
     border-radius: 33px;
+    margin-top: 44px;
   }
   .about-detail{
-border: 1px solid #DC3545;
-border-radius: 22px;
+    
+    border: 2px solid #8F3687  ;
+    border-radius: 33px; 
+    /* border-image: linear-gradient(to right, #29E4EC, #8F3687) 2; */
+    
+    
+
+
+
 
   }
   .bio{
@@ -60,6 +68,17 @@ border-radius: 22px;
   font-family: 'Anton', sans-serif;
     font-size: 55px;
     font-weight: bold;
+    background: linear-gradient(to right, rgba(8, 164, 255, 0.773), rgba(255, 3, 112, 0.961) 50%); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.featurette-heading2{
+  font-family: 'Anton', sans-serif;
+    font-size: 55px;
+    font-weight: bold;
+    background: linear-gradient(to right, rgba(8, 164, 255, 0.773)10%, rgba(255, 3, 112, 0.961) 30%); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .name{
   font-family: 'Anton', sans-serif;
@@ -75,10 +94,19 @@ border-radius: 22px;
 }
 .myname{
   font-family: 'Anton', sans-serif;
-  font-size: 70px;
+  font-size: 60px;
   font-weight: bold;
- 
+  background: linear-gradient(to right, rgba(8, 164, 255, 0.773), rgba(255, 3, 112, 0.961) 40%); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   
+
+
+}
+.text-cert{
+  background: linear-gradient(to right, rgba(8, 164, 255, 0.773), rgba(255, 3, 112, 0.961) 40%); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 
 
 }
@@ -99,7 +127,7 @@ border-radius: 22px;
  width: 100px;
  margin: auto;
  margin-top: 12px;
- color: yellow;
+ color: rgb(0, 170, 255);
  
  }
 
@@ -126,8 +154,10 @@ a{
 }
 
 .hair-me{
+  color: white;
   height: 150px;
-  background-color:yellow ;
+  background: linear-gradient(to right, rgba(8, 164, 255, 0.773), rgba(255, 3, 112, 0.961) 40%); 
+  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -155,11 +185,11 @@ a{
 }
 .home{
 
-  width: 100%;
-  height: 100vh;
+  width: auto;
+  height: 700px;
   background-image: url('./images/home.png');
 background-size: cover;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
  background-repeat: no-repeat;
  
 
@@ -170,12 +200,22 @@ background-size: cover;
 
   position: relative;
   left: 60px;
-  top: 100px;
+  top: 180px;
 }
 
 .text-heading {
 
   color: #FFFF00;
+}
+ .cv-btn{
+  background: linear-gradient(to right, rgba(8, 164, 255, 0.773), rgba(255, 3, 112, 0.961) 40%); 
+color: white;
+padding: 7px;
+border-radius: 12px;
+
+}
+.cv-btn:hover{
+  background-color: #ead5ea58;
 }
 
 /* ---------------------------Responsive------------------------------- */
@@ -210,6 +250,7 @@ background-size: cover;
 position: relative;
 font-size: 17px;
 left: 10px;
+
 
   }
   .award{

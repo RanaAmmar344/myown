@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 
-import img2 from './images/about.jpg'
+import img2 from './images/about.png'
 import img3 from './images/dot.png'
 import { FiAward } from "react-icons/fi";
 
@@ -37,7 +37,7 @@ const App = () => {
     const downloadResume = () => {
       const link = document.createElement('a');
       link.href = resume;
-      link.setAttribute('download', 'Your_Resume.pdf');
+      link.setAttribute('download', 'Rana Ammar Mushtaq.pdf');
       document.body.appendChild(link);
       link.click();
     };
@@ -118,7 +118,7 @@ const App = () => {
             margin: 0 10px; /* Adds margin between links */
           }
           .nav-a:hover {
-            color: red;
+            color: rgba(255, 3, 112, 0.961);
           }
           .bold {
             font-weight: bold;
@@ -143,7 +143,7 @@ const App = () => {
 <div className="row">
   <div className="col-md-12 mt-5 pt-5 px-5 home-text">
       <h1 className='text-white name1'>Hello I'm</h1>
-      <h1 className="text-danger   myname">Rana Ammar Mushtaq</h1>
+      <h1 className="   myname">Rana Ammar Mushtaq</h1>
       <AutoTypeText   />
   </div>
   
@@ -156,15 +156,15 @@ const App = () => {
 
 {/* about */}
 
-<div id='about' className="row featurette text-white p-5" data-aos="fade-up">
+<div id='about' className="row featurette text-white p-5 mt-5" data-aos="fade-up">
   <div className="col-md-7 order-md-2 px-5"  >
-    <h2 className="featurette-heading fw-normal lh-1 text-danger">About Me </h2>
+    <h2 className="featurette-heading2 fw-normal lh-1 ">About Me </h2>
     <hr className='about-icon '/>
     <p className="lead">Passionate and motivated in Software Engineering with a strong foundation in HTML, CSS, and JavaScript. Seeking an entry-level position
 to contribute to web development projects and further enhance my skills while delivering high-quality user experiences.</p>
-<div className="about-detail p-4">
+<div className="about-detail  p-4">
   <div className="row">
-    <div className="col-md-6">
+    <div className="col-md-6 ">
       <span className='bio'> <AiOutlineUser/> </span>  Rana Ammar Mushtaq
     </div>
     <div className="col-md-6">
@@ -199,7 +199,7 @@ to contribute to web development projects and further enhance my skills while de
     </div>
   </div>
   <div className="row my-3 p-1">
-    <h4 className='text-danger'>C E R T I F I C A T I O N S</h4>
+    <h4 className='text-cert fw-bold'>C E R T I F I C A T I O N S</h4>
 
     <div className="col-md-6">
     <span className='bio'>Graphic Designing</span><p>Digiskill Traning Program. • 2021</p>
@@ -209,19 +209,19 @@ to contribute to web development projects and further enhance my skills while de
 
     </div>
   </div>
-  <button  type="button" className="btn btn-danger"onClick={downloadResume}>Download Resume <BiSolidDownload/></button>
+  <button  type="button" className="cv-b"onClick={downloadResume}>Download Resume <BiSolidDownload/></button>
     
   </div>
   </div>
   <div className="col-md-5 order-md-1">
     
-    <img className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-5" width="500" height="500" src={img2} role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+    <img className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid " width="500" height="500" src={img2} role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
   {/* <img src={img2}/> */}
   
   </div>
 </div>
 <div id='skill' className='skill text-white p-5'data-aos="fade-up" >
-<h2   className="featurette-heading fw-normal lh-1 text-danger"> My Skills </h2>
+<h2   className="featurette-heading2 fw-normal lh-1 "> Technical Skills</h2>
     <hr className='about-icon '/>
     <div className="row">
       <div className="col-md-6">
@@ -309,7 +309,7 @@ to contribute to web development projects and further enhance my skills while de
     
   
   <div className='project-title '>
-  <h2 className="featurette-heading fw-normal lh-1 text-danger">My Projects</h2>
+  <h2 className="featurette-heading fw-normal lh-1 ">My Projects</h2>
   </div>
     <hr className='about-icon-project '/>
   
@@ -373,13 +373,13 @@ to contribute to web development projects and further enhance my skills while de
 <d iv className="hair-me">
   <PiDotsNineBold className='doted'/>
   <FaPaperPlane className='hair-icon'/>
-  <h1 className='hairme2'>HIRE ME FOR YOUR AWESOME PROJECTS</h1>
-  <a  href='#about'  type="button" className="btn btn-dark mx-3 hire-button ">HIRE ME</a>
+  <h1 className='hairme2 '>HIRE ME FOR YOUR AWESOME PROJECTS</h1>
+  <a  href='#about'  type="button" className="btn btn-dark mx-3 hire-button text-white ">HIRE ME</a>
   <PiDotsNineBold className='doted'/>
 </d>
 {/* contact */}
-<div className='project-title my-3'data-aos="fade-up" >
-  <h2 className="featurette-heading fw-normal lh-1 text-danger">Contact Me</h2>
+<div className='project-title my-3 mt-5'data-aos="fade-up" >
+  <h2 className="featurette-heading fw-normal lh-1 ">Contact Me</h2>
   </div>
     <hr className='about-icon-project '/>
     <div id='contact' className="container-contact"data-aos="fade-up">
@@ -425,7 +425,7 @@ to contribute to web development projects and further enhance my skills while de
                
 
             <div className="text-start my-3">
-                <button type='submit' className="btn btn-outline-warning" >Send Message</button>
+                <button type='submit' className="btn btn-outline-primary" >Send Message</button>
             </div>
             </form>
 
