@@ -223,21 +223,33 @@ border-radius: 12px;
 @media (max-width : 600px) {
   .home{
 
-    background-image: none;
+    width: auto;
+  height: 500px;
   
+  }
+  .res-h-img{
+
+    position: relative;
+    top: 200px;
+    right: 70px;
   }
 
   .home-text{
     position: relative;
     left: 5px;
     text-align: center;
-    top: 150px;
+    top: 50px;
   }
   .bd-placeholder-img{
 
     position: relative;
-    top: 30px;
-    right: 45px;
+    
+   
+  }
+  .lead{
+
+    width: auto;
+    font-size: 15px;
   }
   .p-card{
 
@@ -248,7 +260,7 @@ border-radius: 12px;
 
   .hairme2{
 position: relative;
-font-size: 17px;
+font-size: 13px;
 left: 10px;
 
 

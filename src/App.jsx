@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 
 import img2 from './images/about.png'
-import img3 from './images/dot.png'
+import img3 from './images/home.png'
 import { FiAward } from "react-icons/fi";
 
 import { AiOutlineUser } from 'react-icons/ai'
@@ -141,7 +141,10 @@ const App = () => {
 <div className="home">
 
 <div className="row">
-  <div className="col-md-12 mt-5 pt-5 px-5 home-text">
+ 
+  <div className="col-md-12 mt-5  pt-5 px-5 home-text">
+    
+
       <h1 className='text-white name1'>Hello I'm</h1>
       <h1 className="   myname">Rana Ammar Mushtaq</h1>
       <AutoTypeText   />
@@ -209,7 +212,7 @@ to contribute to web development projects and further enhance my skills while de
 
     </div>
   </div>
-  <button  type="button" className="cv-b"onClick={downloadResume}>Download Resume <BiSolidDownload/></button>
+  <button  type="button" className="cv-btn"onClick={downloadResume}>Download Resume <BiSolidDownload/></button>
     
   </div>
   </div>
