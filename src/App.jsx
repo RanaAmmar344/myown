@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 
 import img2 from './images/about.png'
-import img3 from './images/home.png'
+import realimg from './images/reales.png'
 import { FiAward } from "react-icons/fi";
 
 import { AiOutlineUser } from 'react-icons/ai'
@@ -370,16 +370,26 @@ to contribute to web development projects and further enhance my skills while de
 </div>
 </a>
       </div>
+    <div className="col-md-3 p-card ">
+      <a  href='https://property-web-app-e3nw.vercel.app/' target='blank' >
+      <div   className="card" >
+  <img src={realimg} className="card-img-top"  height={200} alt="..."/>
+  <div className="card-body">
+    <p className="card-text">RealEs website built with NextJS/ReactJS & Mobile/Tab Responsive</p>
+  </div>
+</div>
+</a>
+      </div>
     </div>
 </div>
 </div>
-<d iv className="hair-me">
+<div className="hair-me">
   <PiDotsNineBold className='doted'/>
   <FaPaperPlane className='hair-icon'/>
   <h1 className='hairme2 '>HIRE ME FOR YOUR AWESOME PROJECTS</h1>
   <a  href='#about'  type="button" className="btn btn-dark mx-3 hire-button text-white ">HIRE ME</a>
   <PiDotsNineBold className='doted'/>
-</d>
+</div>
 {/* contact */}
 <div className='project-title my-3 mt-5'data-aos="fade-up" >
   <h2 className="featurette-heading fw-normal lh-1 ">Contact Me</h2>
