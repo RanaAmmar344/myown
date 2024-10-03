@@ -24,6 +24,7 @@ import { PiDotsNineBold} from 'react-icons/pi'
 import resume from './images/Rana Ammar Mushtaq.pdf'
 import solar from './images/solor.jpg'
 import ecom from './images/ecom.jpg'
+import onlywheel from './images/onlywheel.png'
 import todo from './images/todo.jpg'
 import AutoTypeText from './components/AutoTypeText';
 
@@ -184,7 +185,7 @@ to contribute to web development projects and further enhance my skills while de
   </div>
   <div className="row">
     <div className="col-md-6">
-      <span className='bio'>Experience:</span>  6 Month
+      <span className='bio'>Experience:</span> 1 YEAR
     </div>
     <div className="col-md-6">
       <span className='bio'><AiOutlineLinkedin/> </span> <a href='https://www.linkedin.com/in/rana-ammar-395722152/' target='blank'>Check Linkedin Profile  </a> 
@@ -316,7 +317,17 @@ to contribute to web development projects and further enhance my skills while de
   </div>
     <hr className='about-icon-project '/>
   
-    <div className="row project-row my-5">
+    <div className="row project-row my-5 mx-4">
+      <div className="col-md-3 p-card ">
+      <a  href='https://onlywheels-6fbg.vercel.app/' target='blank' >
+      <div   className="card" >
+  <img src={onlywheel} className="card-img-top" height={200} alt="..."/>
+  <div className="card-body">
+    <p className="card-text"> Only-Wheels  website built with ReactJS/Nextjs Mobile Responsive.</p>
+  </div>
+</div>
+</a>
+      </div>
       <div className="col-md-3 p-card ">
       <a  href='https://solar-rose.vercel.app/' target='blank' >
       <div   className="card" >
